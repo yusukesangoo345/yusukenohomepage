@@ -1,0 +1,157 @@
+/* 基本リセット */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ボディと全体レイアウト */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* ナビゲーションバー */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+nav .logo {
+    color: #fff;
+    font-size: 24px;
+}
+
+nav .nav-links {
+    list-style: none;
+    display: flex;
+}
+
+nav .nav-links li {
+    margin: 0 15px;
+}
+
+nav .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav .nav-links a:hover {
+    color: #f4f4f4;
+    border-bottom: 2px solid white;
+}
+
+/* ハンバーガーメニュー */
+.burger {
+    display: none;
+    cursor: pointer;
+}
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+}
+
+/* Heroセクション */
+.hero {
+    height: 100vh;
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+}
+
+/* 各セクション */
+.section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#about, #services, #contact {
+    background-color: white;
+    color: #333;
+}
+
+#about h2, #services h2, #contact h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+/* レスポンシブ対応 */
+@media screen and (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #333;
+    }
+
+    .nav-links li {
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .nav-active {
+        display: flex;
+    }
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+/* ギャラリーの基本スタイル */
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* 複数行で表示 */
+}
+
+.article {
+    margin: 10px; /* 記事間のマージン */
+    border: 1px solid #ccc; /* ボーダー */
+    border-radius: 8px; /* 角の丸み */
+    padding: 10px; /* パディング */
+    width: 200px; /* 記事の幅 */
+}
+
+.article img {
+    width: 100%; /* 画像をコンテナの幅に合わせる */
+    height: auto; /* 高さを自動調整 */
+    border-radius: 5px; /* 画像の角の丸み */
+}
+
+.article p {
+    margin-top: 10px; /* タイトルの上部マージン */
+}
