@@ -10,15 +10,12 @@ burger.addEventListener('click', () => {
 });
 // 複数の画像データ
 const images = [
-    { src: "https://via.placeholder.com/200x150?text=記事1", link: "https://example.com/article1" },
-    { src: "https://via.placeholder.com/200x150?text=記事2", link: "https://example.com/article2" },
-    { src: "https://via.placeholder.com/200x150?text=記事3", link: "https://example.com/article3" },
-    { src: "https://via.placeholder.com/200x150?text=記事4", link: "https://example.com/article4" },
-    { src: "https://via.placeholder.com/200x150?text=記事5", link: "https://example.com/article5" },
-    { src: "https://via.placeholder.com/200x150?text=記事6", link: "https://example.com/article6" },
-    { src: "https://via.placeholder.com/200x150?text=記事7", link: "https://example.com/article7" },
-    { src: "https://via.placeholder.com/200x150?text=記事8", link: "https://example.com/article8" },
-    { src: "https://via.placeholder.com/200x150?text=記事9", link: "https://example.com/article9" }
+    { src: "https://via.placeholder.com/200x150?text=記事1", link: "https://yusukesangoo345.github.io/yusukehomepage-404/" },
+    { src: "https://via.placeholder.com/200x150?text=記事2", link: "https://yusukesangoo345.github.io/yusukehomepage-404/" },
+    { src: "https://via.placeholder.com/200x150?text=記事3", link: "https://yusukesangoo345.github.io/yusukehomepage-404/" },
+    { src: "https://via.placeholder.com/200x150?text=記事4", link: "https://yusukesangoo345.github.io/yusukehomepage-404/" },
+    { src: "https://via.placeholder.com/200x150?text=記事5", link: "https://yusukesangoo345.github.io/yusukehomepage-404/" },
+    { src: "https://via.placeholder.com/200x150?text=記事6", link: "https://yusukesangoo345.github.io/yusukehomepage-404/" },
 ];
 
 // 画像一覧を表示する関数
