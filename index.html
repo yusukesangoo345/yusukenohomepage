@@ -3,88 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>祐介のほーむぺーじ</title>
-    <link rel="stylesheet" href="style.css">
+    <title>シンプルホームページ</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <header>
+        <h1>あなたのホームページ</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">ホーム</a></li>
+                <li><a href="#contact">お問い合わせ</a></li>
+                <li><a href="#blog">ブログ</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <!-- ナビゲーションバー -->
-    <nav>
-        <div class="logo">
-            <h1>祐介のほーむぺーじ</h1>
-        </div>
-        <ul class="nav-links">
-            <li><a href="#home">ホーム</a></li>
-            <li><a href="#about">概要</a></li>
-            <li><a href="#article">記事</a></li>
-            <li><a href="#contact">お問い合わせ</a></li>
-        </ul>
-        <div class="burger">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-        </div>
-    </nav>
+    <main>
+        <section id="home">
+            <h2>ホーム</h2>
+            <p>ここには何もないようだ</p>
+        </section>
+        <section id="blog">
+            <h2>ブログ</h2>
+            <p>ブログ記事を追加する場合、ここに最新の投稿を表示できます。</p>
+        </section>
+        <section id="contact">
+            <h2>お問い合わせ</h2>
+            <form>
+                <label for="name">お名前:</label>
+                <input type="text" id="name" name="name" required>
 
-    <!-- ホームセクション -->
-    <section id="home" class="hero">
-        <h2>ようこそ！</h2>
-        <p></p>
-    </section>
+                <label for="email">メールアドレス:</label>
+                <input type="email" id="email" name="email" required>
 
-    <!-- 概要セクション -->
-    <section id="about" class="section">
-        <h2>概要</h2>
-        <p>名ばかりクリエイター、祐介のホームページです</p>
-        <h2>私について</h2>
-        <img src="https://iconbu.com/wp-content/uploads/2020/01/%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3%E3%82%92%E3%81%99%E3%82%8B%E7%94%B7%E6%80%A7%E3%81%AE%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88.jpg" alt="パソコンをする男性">
-        <h3>祐介</h3>
-        <p>20??年9月28日生まれ。はてなブログで、ブログも営んでいる。また、ウィキペディアンでもあり、Youtubeクリエイターでもある(自称)</p>
-    </section>
+                <label for="message">メッセージ:</label>
+                <textarea id="message" name="message" required></textarea>
 
-    <!-- サービスセクション -->
-    <section id="article" class="section">
-        <h2>新着記事</h2>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-    
-        <!-- 画像ギャラリー -->
-        <div class="gallery">
-            <a href="article1.html">
-                <a href="https://yusukesangoo345.github.io/yusukehomepage-kiji-codekoukai1/" target="_blank" class="simpletodolistkiji1">
-                    <img src="https://export-download.canva.com/zqjxk/DAGTuGzqjxk/12/0/0001-443895248245297.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJHKNGJLC2J7OGJ6Q%2F20241016%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241016T065151Z&X-Amz-Expires=13943&X-Amz-Signature=c62090cc6a0e5e765dd9a6726928b950ee496c73482867f7e062929ab5086347&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27GITHUB%25E3%2581%25A7%25E5%2585%25AC%25E9%2596%258B%25E4%25B8%25AD%25EF%25BC%2581.png&response-expires=Wed%2C%2016%20Oct%202024%2010%3A44%3A14%20GMT" alt="説明文" style="width: 200px; height: auto;">
-                </a>                
-            </a>
-            <a href="article2.html">
-                <img src="https://via.placeholder.com/200x150?text=記事2" alt="記事2">
-            </a>
-            <a href="article3.html">
-                <img src="https://via.placeholder.com/200x150?text=記事3" alt="記事3">
-            </a>
-            <a href="article4.html">
-                <img src="https://via.placeholder.com/200x150?text=記事4" alt="記事4">            <a href="article3.html">
-                    <img src="https://via.placeholder.com/200x150?text=記事5" alt="記事5">
-                </a>
-                <a href="article4.html">
-                    <img src="https://via.placeholder.com/200x150?text=記事6" alt="記事6">
-                </section>
-                    </section>
-                 </div>
-                 <h2>サイト一覧</h2>
-                 <div class="gallery">
-                    <a href="article1.html">
-                        <a href="https://yusukesangoo345.github.io/simple-To-Do-list/" target="_blank" class="simpletodolistkiji1">
-                            <img src="https://export-download.canva.com/zqjxk/DAGTuGzqjxk/25/0/0001-443898133605803.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJHKNGJLC2J7OGJ6Q%2F20241016%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241016T003254Z&X-Amz-Expires=38918&X-Amz-Signature=4d4c40ba20d5c5ca819dcef72fee34a48250aff6386aec25b7a1ab57bd1d340d&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27GITHUB%25E3%2581%25A7%25E5%2585%25AC%25E9%2596%258B%25E4%25B8%25AD%25EF%25BC%2581.png&response-expires=Wed%2C%2016%20Oct%202024%2011%3A21%3A32%20GMT" alt="説明文" style="width: 200px; height: auto;">
-                        </div>
-    <!-- お問い合わせセクション -->
-    <section id="contact" class="section">
-        <h2>お問い合わせ</h2>
-        <p>お問い合わせはこちらからどうぞ！</p>
-    </section>
+                <button type="submit">送信</button>
+            </form>
+        </section>
+    </main>
 
-    <script src="script.js"></script>
-
+    <footer>
+        <p>&copy; 2024 Yusuke Okada</p>
+    </footer>
 </body>
 </html>
-
